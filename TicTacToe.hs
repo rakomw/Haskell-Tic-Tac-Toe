@@ -1,6 +1,7 @@
 import Data.Maybe
 
---Library providing data types and functions to support a text-based game of tic tac toe. some of the data types and functions are designed in a general manner so that this library could be extended to similar games such as connect four.
+--Library providing data types and functions to support a text-based game of tic tac toe. 
+--Data types and functions are easily extensible to other simple games like connect four
 --Symbol that a player can place in a square. only those needed for tic-tac-toe are included but this could be extended
 data Symbol = X | O deriving (Eq,Show)
 --represents one space in the board for a game
